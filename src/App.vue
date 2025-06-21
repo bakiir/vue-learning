@@ -35,6 +35,8 @@
 
   <!--Slots and Scoped Slots-->
 <Card>This is our first slot</Card>
+  <Card><h2>This is our first slot</h2></Card>
+  <Card><img src="https://www.fastprint.ua/ru/assets/media/general/blog/articles/2023/rgbcmyk/rgb_cmyk_Zmishuvannya_koliorov_RGB.jpg"></Card>
 
 </template>
 
