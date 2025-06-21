@@ -36,8 +36,24 @@
   <!--Slots and Scoped Slots-->
 <Card>This is our first slot</Card>
   <Card><h2>This is our first slot</h2></Card>
-  <Card><img src="https://www.fastprint.ua/ru/assets/media/general/blog/articles/2023/rgbcmyk/rgb_cmyk_Zmishuvannya_koliorov_RGB.jpg"></Card>
 
+
+  <Card>
+
+    <!--We are filling our scoped slot-->
+    <template v-slot:header>
+      <h2>Fitst Card</h2>
+    </template>
+
+    <template v-slot:default>
+      <img src="https://www.fastprint.ua/ru/assets/media/general/blog/articles/2023/rgbcmyk/rgb_cmyk_Zmishuvannya_koliorov_RGB.jpg">
+    </template>
+
+    <template v-slot:footer>
+      <h2>Fitst Footer</h2>
+    </template>
+
+  </Card>
 </template>
 
 <script>
